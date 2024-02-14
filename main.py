@@ -7,3 +7,10 @@ print("name")
 print(name)
 # this shows the variables value
 print(type(name))
+# you must add _ to two segmented words instead of a space, or it won't work
+first_name = "Mark"
+print(first_name)
+# you can combine multiple variable together
+last_name = " damson"
+full_name = first_name + last_name
+print(full_name)
