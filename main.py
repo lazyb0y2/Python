@@ -16,3 +16,12 @@ last_name = "damson"  # this could also work  # last_name = " damson"
 full_name = first_name + " " + last_name
 print(full_name)
 # this is a comment --> #comments can't be seen when the code is running
+# when making a variable the either an int or float you don't use quotations/this "" because it will turn it into a string
+age = 25
+print(age)
+# after modifying the variable age  the print below shows the new one while the other shows the old one
+age = age - 5
+print(age)
+# its value is int instead of string now
+print(type(age))
+
