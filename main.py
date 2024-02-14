@@ -32,3 +32,6 @@ print(type(age))
 # print("your name is"full_name)[this won't work because somthing is missing]
 # this one way for a variable to be added to a string statement
 print("your name is" + str(full_name))
+# this is another way to add a variable into a string statement and the only way I know how add multiple to one as well
+print(f"your name is {full_name}")
+print(f"your name is {full_name} and your {age} years old")
