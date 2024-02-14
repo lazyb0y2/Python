@@ -29,6 +29,6 @@ print(age)
 # its value is now float instead of string or int now
 print(type(age))
 # ints are numbers without decimals while floats are numbers with decimals
-
 # print("your name is"full_name)[this won't work because somthing is missing]
-print("your name is"+str(full_name))
+# this one way for a variable to be added to a string statement
+print("your name is" + str(full_name))
