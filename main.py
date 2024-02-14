@@ -24,4 +24,8 @@ age = age - 5
 print(age)
 # its value is int instead of string now
 print(type(age))
-
+age = age + .5
+print(age)
+# its value is now float instead of string or int now
+print(type(age))
+# ints are numbers without decimals while floats are numbers with decimals
