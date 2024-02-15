@@ -12,4 +12,3 @@ print(first_name)
 print(last_name)
 print(funky_name)
 print(reversed_name)
-
