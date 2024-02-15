@@ -35,3 +35,12 @@ print("your name is" + str(full_name))
 # this is another way to add a variable into a string statement and the only way I know how add multiple to one as well
 print(f"your name is {full_name}")
 print(f"your name is {full_name} and your {age} years old")
+# multiple assignment = allows us to assign multiple variable at the same time in one line of code
+name = "Bro"
+age = 20
+girlfriend = False
+time = 8.22
+print(name)
+print(age)
+print(girlfriend)
+print(time)
