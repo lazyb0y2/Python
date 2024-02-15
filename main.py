@@ -102,5 +102,5 @@ pi = 3.14
 # print(abs(pi))
 # This time it by the power of any number you put
 # print(pow(pi,2))
-#
-print(math.sqrt(2))
+# im not sure what this does?
+print(math.sqrt(pi))
