@@ -100,11 +100,14 @@ oi = 1
 # print(math.ceil(pi))
 # this will round it down no matter the number
 # print(math.floor(pi))
-# abs/absolute value even if negative the number will be positive because it's absolute will be it's positive form
+# abs/absolute value even if negative the number will be positive because it's absolute will be its positive form
 # print(abs(pi))
 # This time it by the power of any number you put
 # print(pow(pi,2))
 # im not sure what this does?
 print(math.sqrt(pi))
 # this prints out the biggest number
-print(max(oi, pi, ei))
+# print(max(oi, pi, ei))
+# this prints out the smallest number
+# print(min(oi, pi, ei))
+# ----------------------------------------------------------------------------------------------------------------------
