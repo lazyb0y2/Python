@@ -100,3 +100,5 @@ pi = 3.14
 # print(math.floor(pi))
 # abs/absolute value even if negative the number will be positive because it's absolute will be it's positive form
 # print(abs(pi))
+# This time it by the power of any number you put
+# print(pow(pi,2))
