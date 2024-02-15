@@ -18,6 +18,14 @@ elif response == "squidward":
     result = "your an adult"
 elif response == "sandy":
     result = "your a simp"
+elif response == "krabs":
+    result = "your greedy and stingy"
+elif response == "mr.krabs":
+    result = "your greedy and stingy"
+elif response == "plankton":
+    result = "you don't exist"
+elif response == "gary":
+    result = "you are a god"
 else:
-    "okay keep your secrets"
+    result = "okay keep your secrets"
 print(result)
