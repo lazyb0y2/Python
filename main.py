@@ -69,6 +69,8 @@ title = "ultimate life form"
 # print(title.isalpha())
 # counts the amount of time this character was used
 # print(title.count("i"))
-
-#print(title.replace("t", "l"))
+# replaces a certain character with another character
+# print(title.replace("t", "l"))
+# multiples it how many times you want
+# print(title*3)
 # ----------------------------------------------------------------------------------------------------------------------
