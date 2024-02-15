@@ -92,7 +92,9 @@ print(z)
 print(type(z))
 # ----------------------------------------------------------------------------------------------------------------------
 pi = 3.14
-# this rounds it up
+# this rounds the number up or down
 print(round(pi))
-#
+# this will round it up no matter the number
 print(math.ceil(pi))
+# this will round it down no matter the number
+print(math.floor(pi))
