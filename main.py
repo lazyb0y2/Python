@@ -92,6 +92,8 @@ print(z)
 print(type(z))
 # ----------------------------------------------------------------------------------------------------------------------
 pi = 3.14
+ei = 2.53
+oi = 1
 # this rounds the number up or down
 # print(round(pi))
 # this will round it up no matter the number
@@ -104,3 +106,5 @@ pi = 3.14
 # print(pow(pi,2))
 # im not sure what this does?
 print(math.sqrt(pi))
+# this prints out the biggest number
+print(max(oi, pi, ei))
