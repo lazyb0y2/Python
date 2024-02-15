@@ -54,5 +54,7 @@ print(time)
 # ----------------------------------------------------------------------------------------------------------------------
 # len shows how many length of the print
 title = "ultimate life form"
-print(len(title))
+# print(len(title))
+# this tells us what number this character was designate in order
+print(title.find("e"))
 # ----------------------------------------------------------------------------------------------------------------------
