@@ -65,4 +65,6 @@ title = "ultimate life form"
 # print(title.lower())
 # this checks to see the print is an int
 # print(title.isdigit())
+# this checks to see if the variable has a space or not if it has a space it's False if not True
+print(title.isalpha())
 # ----------------------------------------------------------------------------------------------------------------------
