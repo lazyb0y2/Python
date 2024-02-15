@@ -93,8 +93,10 @@ print(type(z))
 # ----------------------------------------------------------------------------------------------------------------------
 pi = 3.14
 # this rounds the number up or down
-print(round(pi))
+# print(round(pi))
 # this will round it up no matter the number
-print(math.ceil(pi))
+# print(math.ceil(pi))
 # this will round it down no matter the number
-print(math.floor(pi))
+# print(math.floor(pi))
+# abs/absolute value even if negative the number will be positive because it's absolute will be it's positive form
+# print(abs(pi))
