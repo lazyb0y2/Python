@@ -104,8 +104,8 @@ oi = 1
 # print(abs(pi))
 # This time it by the power of any number you put
 # print(pow(pi,2))
-# im not sure what this does?
-print(math.sqrt(pi))
+# this finds the square root of the number in round brackets
+print(math.sqrt(3))
 # this prints out the biggest number
 # print(max(oi, pi, ei))
 # this prints out the smallest number
