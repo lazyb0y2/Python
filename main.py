@@ -56,5 +56,13 @@ print(time)
 title = "ultimate life form"
 # print(len(title))
 # this tells us what number this character was designate in order
-print(title.find("e"))
+# print(title.find("e"))
+# this code automatically capitalizes the word for you
+# print(title.capitalize())
+# this put everything in all caps
+# print(title.upper())
+# this makes everything lower cased
+# print(title.lower())
+# this checks to see the print is an int
+# print(title.isdigit())
 # ----------------------------------------------------------------------------------------------------------------------
