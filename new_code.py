@@ -6,7 +6,7 @@ name = "Bro Code"
 
 first_name = name[0:3]  # or [:3]
 last_name = name[4:8]  # or [4:]
-funky_name = name[0:8:2]
+funky_name = name[0:8:2]  # or [::2]
 reversed_name = name[::-1]
 print(first_name)
 print(last_name)
