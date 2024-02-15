@@ -1,4 +1,6 @@
 # outputs words on a screen
+import math
+
 print("hello")
 # ----------------------------------------------------------------------------------------------------------------------
 # this is a variable it contains the value of the thing inside of it
@@ -92,3 +94,5 @@ print(type(z))
 pi = 3.14
 # this rounds it up
 print(round(pi))
+#
+print(math.ceil(pi))
