@@ -74,3 +74,18 @@ title = "ultimate life form"
 # multiples it how many times you want
 # print(title*3)
 # ----------------------------------------------------------------------------------------------------------------------
+x = 1  # this is an int
+y = 2.0  # this is a float
+z = "3"  # this is a string
+# adding float, str, or int can change the type of variable
+x = float(x)
+y = str(y)
+z = int(z)
+
+print(x)
+print(type(x))
+print(y)
+print(type(y))
+print(z)
+print(type(z))
+# ----------------------------------------------------------------------------------------------------------------------
