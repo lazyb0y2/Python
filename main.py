@@ -66,5 +66,9 @@ title = "ultimate life form"
 # this checks to see the print is an int
 # print(title.isdigit())
 # this checks to see if the variable has a space or not if it has a space it's False if not True
-print(title.isalpha())
+# print(title.isalpha())
+# counts the amount of time this character was used
+# print(title.count("i"))
+
+#print(title.replace("t", "l"))
 # ----------------------------------------------------------------------------------------------------------------------
