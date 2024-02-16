@@ -18,8 +18,9 @@ print(reversed_name)
 website1 = "https://google.com"
 website2 = "https://wikipedia.com"
 
-
+# noinspection PyArgumentList
 slice = slice(8, -4)
 
 print(website1[slice])
 print(website2[slice])
+# ----------------------------------------------------------------------------------------------------------------------
