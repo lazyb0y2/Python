@@ -34,10 +34,10 @@ print(result)
 # ----------------------------------------------------------------------------------------------------------------------
 user_age = input("How old are you currently: ")
 
-if user_age >= 18:
-    print("So your an adult")
-elif user_age >= 13:
+if user_age >= 13:
     print("So your a teenager")
+elif user_age >= 18:
+    print("So your an adult")
 elif user_age >= 50:
     print("So your middle aged")
 elif user_age >= 75:
