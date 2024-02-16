@@ -32,19 +32,19 @@ else:
     result = "okay keep your secrets"
 print(result)
 # ----------------------------------------------------------------------------------------------------------------------
-user_age = input("How old are you currently: ")
+age = input("How old are you currently?: ")
 
-if user_age >= 13:
-    print("So your a teenager")
-elif user_age >= 18:
-    print("So your an adult")
-elif user_age >= 50:
-    print("So your middle aged")
-elif user_age >= 75:
-    print("So your a senior")
-elif user_age == 100:
-    print("Sorry for being so blunt but your old!")
-elif user_age >= 100:
+if age >= 100:
     print("How? whats your secret")
+elif age == 100:
+    print("Sorry for being so blunt but your old!")
+elif age >= 75:
+    print("So your a senior")
+elif age >= 50:
+    print("So your middle aged")
+elif age >= 18:
+    print("So your an adult")
+elif age >= 13:
+    print("So your a teenager")
 else:
     print("Your a child")
