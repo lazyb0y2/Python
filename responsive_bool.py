@@ -5,11 +5,11 @@ print(f"so your full name is {full_name}")
 # ----------------------------------------------------------------------------------------------------------------------
 
 num = input("choose an number:")
-num2 = input("choose an number:")
+num2 = input("choose another number:")
 solution = int(num) + int(num2)
 print(f"so if you add {num} and {num2} you'll get {solution}")
 # ----------------------------------------------------------------------------------------------------------------------
-
+# giving the user a response to there favorite character from spongebob
 response = input("which spongebob character is your favorite spongebob, patrick, squidward, krabs, plankton, or sandy: ")
 
 if response == "spongebob":
@@ -32,6 +32,7 @@ else:
     result = "okay keep your secrets"
 print(result)
 # ----------------------------------------------------------------------------------------------------------------------
+# asking user how old they are and giving them a statement about there age
 age = int(input("How old are you currently?: "))
 
 if age >= 100:
