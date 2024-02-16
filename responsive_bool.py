@@ -50,5 +50,12 @@ elif age >= 13:
 else:
     print("Your a child")
 # ----------------------------------------------------------------------------------------------------------------------
-
-temp = input("Whats the temperature outside?: ")
+# Logical operated (and,or,not) = used to check if two or more conditional statements is True
+temp = int(input("Whats the temperature outside?: "))
+# and makes it that both statements need be true
+if temp>=0 and temp <= 30:
+    print("The temperature is good today!")
+    print("go outside!")
+elif temp < 0 or temp >30:
+    print("The temperature is bad today!")
+    print("Stay inside!")
