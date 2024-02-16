@@ -10,7 +10,8 @@ solution = int(num) + int(num2)
 print(f"so if you add {num} and {num2} you'll get {solution}")
 # ----------------------------------------------------------------------------------------------------------------------
 # giving the user a response to there favorite character from spongebob
-response = input("which spongebob character is your favorite spongebob, patrick, squidward, krabs, plankton, or sandy: ")
+response = input(
+    "which spongebob character is your favorite spongebob, patrick, squidward, krabs, plankton, or sandy: ")
 
 if response == "spongebob":
     result = "your based"
@@ -53,20 +54,20 @@ else:
 # Logical operated (and,or,not) = used to check if two or more conditional statements is True
 temp = int(input("Whats the temperature outside?: "))
 # and means that both statements need be correct to be true
-# if (temp >= 0 and temp <= 30):
-  #  print("The temperature is good today!")
-  #  print("go outside!")
+if (temp >= 0 and temp <= 30):
+    print("The temperature is good today!")
+    print("go outside!")
 # or means one or both statements need to be correct for it to be true
-# elif (temp < 0 or temp > 30):
-  #  print("The temperature is bad today!")
-  #  print("Stay inside!")
+elif (temp < 0 or temp > 30):
+    print("The temperature is bad today!")
+    print("Stay inside!")
 
 # not means that if statements wrong It's correct
-# if not (temp >= 0 and temp <= 30):
-    # print("The temperature is bad today!")
-    # print("Stay inside!")
+if not (temp >= 0 and temp <= 30):
+    print("The temperature is bad today!")
+    print("Stay inside!")
 
-# elif not (temp < 0 or temp > 30):
-    # print("The temperature is good today!")
-    # print("go outside!")
+elif not (temp < 0 or temp > 30):
+    print("The temperature is good today!")
+    print("go outside!")
 # ----------------------------------------------------------------------------------------------------------------------
