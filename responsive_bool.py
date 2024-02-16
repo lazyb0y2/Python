@@ -10,7 +10,7 @@ solution = int(num) + int(num2)
 print(f"so if you add {num} and {num2} you'll get {solution}")
 # ----------------------------------------------------------------------------------------------------------------------
 
-response = input("which spongebob character is your favorite spongebob, patrick, squidward, or sandy: ")
+response = input("which spongebob character is your favorite spongebob, patrick, squidward, krabs, plankton, or sandy: ")
 
 if response == "spongebob":
     result = "your based"
@@ -32,3 +32,19 @@ else:
     result = "okay keep your secrets"
 print(result)
 # ----------------------------------------------------------------------------------------------------------------------
+user_age = input("How old are you currently: ")
+
+if user_age >= 18:
+    print("So your an adult")
+elif user_age >= 13:
+    print("So your a teenager")
+elif user_age >= 50:
+    print("So your middle aged")
+elif user_age >= 75:
+    print("So your a senior")
+elif user_age == 100:
+    print("Sorry for being so blunt but your old!")
+elif user_age >= 100:
+    print("How? whats your secret")
+else:
+    print("Your a child")
