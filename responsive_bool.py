@@ -32,7 +32,7 @@ else:
     result = "okay keep your secrets"
 print(result)
 # ----------------------------------------------------------------------------------------------------------------------
-age = input("How old are you currently?: ")
+age = int(input("How old are you currently?: "))
 
 if age >= 100:
     print("How? whats your secret")
