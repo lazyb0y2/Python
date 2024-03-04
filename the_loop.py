@@ -1,4 +1,3 @@
-# causes the text in name to constantly be printed in a loop
-while 1 == 1:
-    name = print("Help! I'm stuck in a loop!")
-# ----------------------------------------------------------------------------------------------------------------------
+# while loop = a statement that will execute its block of code
+#              as long as it's condition remains true
+
