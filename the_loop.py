@@ -7,12 +7,12 @@
 
 # print("Hello" + " " + name)
 # ----------------------------------------------------------------------------------------------------------------------
-name = None
+# name = None
 
-while not name:
-    name = input("Enter your name: ")
+# while not name:
+#    name = input("Enter your name: ")
 
-    print("Hello "+name)
+#    print("Hello " + name)
 # ----------------------------------------------------------------------------------------------------------------------
 # for loop =   a statement that will execute its block of code
 #              a limited amount of times
@@ -20,11 +20,11 @@ while not name:
 #              while loop = unlimited
 #              for loop = limited
 
-# for i in range(10):
-     # print(i+1)
+for i in range(10):
+    print(i + 1)
 
 # for i in range (50,100+1,2):
-     # print(i)
+# print(i)
 
 # for i in "Bro Code":
-     # print(i)
+# print(i)
