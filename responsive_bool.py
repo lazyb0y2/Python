@@ -63,7 +63,7 @@ elif (temp < 0 or temp > 30):
     print("The temperature is bad today!")
     print("Stay inside!")
 
-# not means that if statements wrong It's correct
+# these if not mean that if statements wrong It's correct
 if not (temp >= 0 and temp <= 30):
     print("The temperature is bad today!")
     print("Stay inside!")
