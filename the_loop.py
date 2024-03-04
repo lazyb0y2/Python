@@ -21,10 +21,11 @@
 #              for loop = limited
 
 # for i in range(10):
-   # print(i + 1)
-
-# for i in range (50,100+1,2):
-# print(i)
+# print(i + 1)
+#     c,u,n = count, up, number
+#       starting ! end !c,u,n !
+# for i in range(50, 100 + 1, 2):
+#    print(i)
 
 # for i in "Bro Code":
-# print(i)
+#    print(i)
