@@ -1,5 +1,6 @@
 # while loop = a statement that will execute its block of code
 #              as long as it's condition remains true
+import time
 
 # name = ""
 # while len(name) == 0:
@@ -29,3 +30,10 @@
 
 # for i in "Bro Code":
 #    print(i)
+# starting number  >10<
+# ending number        >0<
+# makes it count down     >-1<
+for second in range(10, 0, -1):
+    print(second)
+    time.sleep(1)
+print("Happy New Year!")
