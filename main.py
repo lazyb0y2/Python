@@ -113,3 +113,5 @@ oi = 1
 # list = used to store multiple items in a singular variable
 
 anime = ["naruto", "bleach", "one piece", "dragon ball", "jujutsu kaisen"]
+
+print(food)
