@@ -61,5 +61,9 @@ import time
 #    if name != "":
 #        break
 
-phone_number = "123-456-7890"
+#phone_number = "123-456-7890"
 
+#for i in phone_number:
+#    if i == "-":
+#        continue
+#    print(i, end="")
