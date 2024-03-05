@@ -111,3 +111,5 @@ oi = 1
 # print(min(oi, pi, ei))
 # ----------------------------------------------------------------------------------------------------------------------
 # list = used to store multiple items in a singular variable
+
+anime = ["naruto", "bleach", "one piece", "dragon ball", "jujutsu kaisen"]
