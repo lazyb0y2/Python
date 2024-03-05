@@ -2,15 +2,15 @@
 #              as long as it's condition remains true
 import time
 
-# name = ""
-# while len(name) == 0:
+#name = ""
+#while len(name) == 0:
 #   name = input("Enter your name: ")
 
-# print("Hello" + " " + name)
+#print("Hello" + " " + name)
 # ----------------------------------------------------------------------------------------------------------------------
-# name = None
+#name = None
 
-# while not name:
+#while not name:
 #    name = input("Enter your name: ")
 
 #    print("Hello " + name)
@@ -21,18 +21,18 @@ import time
 #              while loop = unlimited
 #              for loop = limited
 
-# for i in range(10):
-# print(i + 1)
+#for i in range(10):
+#print(i + 1)
 #     c,u,n = count, up, number
 #       starting ! end !c,u,n !
-# for i in range(50, 100 + 1, 2):
+#for i in range(50, 100 + 1, 2):
 #    print(i)
 
-# for i in "Bro Code":
+#for i in "Bro Code":
 #    print(i)
-# starting number  >10<
-# ending number        >0<
-# makes it count down     >-1<
+#  starting number  >10<
+#   ending number        >0<
+#   makes it count down     >-1<
 #for second in range(10, 0, -1):
 #    print(second)
 #     time.sleep(1)
@@ -41,13 +41,13 @@ import time
 # nested loops =    The "inner loop" will finish all of its iterations before
 #                   finishing one iteration of the "outer loop"
 
-rows = int(input("How many rows?: "))
-columns = int(input("How many columns?: "))
-symbol = input("Enter a symbol to use?: ")
+#rows = int(input("How many rows?: "))
+#columns = int(input("How many columns?: "))
+#symbol = input("Enter a symbol to use?: ")
 
-for i in range(rows):
-    for j in range(columns):
-        print(symbol, end="")
-    print()
+#for i in range(rows):
+#    for j in range(columns):
+#        print(symbol, end="")
+#    print()
 # ----------------------------------------------------------------------------------------------------------------------
 
