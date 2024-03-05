@@ -1,46 +1,46 @@
 # outputs words on a screen
 
-#print("hello")
+# print("hello")
 # ----------------------------------------------------------------------------------------------------------------------
 # this is a variable it contains the value of the thing inside it
 name = "bro"
 # don't add " to a variable because it will become a string the outputs the variable name not what's contained
-#print("name")
-#print(name)
+# print("name")
+# print(name)
 # this shows the variables value
-#print(type(name))
+# print(type(name))
 # ----------------------------------------------------------------------------------------------------------------------
 # you must add _ to two segmented words instead of a space, or it won't work
 first_name = "Mark"
-#print(first_name)
+# print(first_name)
 # you can combine multiple variable together
 last_name = "damson"  # this could also work  # last_name = " damson"
 full_name = first_name + last_name
 full_name = first_name + " " + last_name
-#print(full_name)
+# print(full_name)
 # ----------------------------------------------------------------------------------------------------------------------
 # this is a comment --> #comments can't be seen when the code is running
 # ----------------------------------------------------------------------------------------------------------------------
 # when making a variable the either an int or float you don't use quotations/this "" because it will turn it into a string
 age = 25
-#print(age)
+# print(age)
 # after modifying the variable age, the print below shows the new one while the other shows the old one
 age = age - 5
-#print(age)
+# print(age)
 # its value is int instead of string now
-#print(type(age))
+# print(type(age))
 age = age + .5
-#print(age)
+# print(age)
 # its value is now float instead of string or int now
-#print(type(age))
+# print(type(age))
 # ints are numbers without decimals while floats are numbers with decimals
 # ----------------------------------------------------------------------------------------------------------------------
 # print("your name is"full_name)[this won't work because somthing is missing]
 # this one way for a variable to be added to a string statement
-#print("your name is" + str(full_name))
+# print("your name is" + str(full_name))
 # this is another way to add a variable into a string statement and the only way I know how add multiple to one as well
-#print(f"your name is {full_name}")
-#print(f"your name is {full_name} and your {age} years old")
+# print(f"your name is {full_name}")
+# print(f"your name is {full_name} and your {age} years old")
 # ----------------------------------------------------------------------------------------------------------------------
 # multiple assignment = allows us to assign multiple variable at the same time in one line of code
 name = "Bro"
@@ -48,10 +48,10 @@ age = 20
 girlfriend = False
 time = 8.22
 name, age, girlfriend, time = "Bro", 20, False, 8.22
-#print(name)
-#print(age)
-#print(girlfriend)
-#print(time)
+# print(name)
+# print(age)
+# print(girlfriend)
+# print(time)
 # ----------------------------------------------------------------------------------------------------------------------
 # len shows how many lengths of the print
 title = "ultimate life form"
@@ -83,12 +83,12 @@ x = float(x)
 y = str(y)
 z = int(z)
 
-#print(x)
-#print(type(x))
-#print(y)
-#print(type(y))
-#print(z)
-#print(type(z))
+# print(x)
+# print(type(x))
+# print(y)
+# print(type(y))
+# print(z)
+# print(type(z))
 # ----------------------------------------------------------------------------------------------------------------------
 pi = 3.14
 ei = 2.53
@@ -111,7 +111,8 @@ oi = 1
 # print(min(oi, pi, ei))
 # ----------------------------------------------------------------------------------------------------------------------
 # list = used to store multiple items in a singular variable
-
-anime = ["naruto", "bleach", "one piece", "dragon ball", "jujutsu kaisen"]
-
-print(anime)
+# naruto is 0, bleach is 1, one piece is 2, dragon ball is 3, and jujutsu kaisen is 4
+anime = ["Naruto", "Bleach", "One piece", "Dragon ball", "Jujutsu kaisen"]
+# chooses which item on the list would be chosen just put a number in the []
+anime[0] = "Food wars"  # instead of putting Naruto if I input anime[0] it will output Food wars
+print(anime[0])
