@@ -24,7 +24,7 @@ full_name = first_name + " " + last_name
 # when making a variable the either an int or float you don't use quotations/this "" because it will turn it into a string
 age = 25
 #print(age)
-# after modifying the variable age  the print below shows the new one while the other shows the old one
+# after modifying the variable age, the print below shows the new one while the other shows the old one
 age = age - 5
 #print(age)
 # its value is int instead of string now
@@ -53,7 +53,7 @@ name, age, girlfriend, time = "Bro", 20, False, 8.22
 #print(girlfriend)
 #print(time)
 # ----------------------------------------------------------------------------------------------------------------------
-# len shows how many length of the print
+# len shows how many lengths of the print
 title = "ultimate life form"
 # print(len(title))
 # this tells us what number this character was designate in order
