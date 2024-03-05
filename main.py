@@ -114,5 +114,8 @@ oi = 1
 # naruto is 0, bleach is 1, one piece is 2, dragon ball is 3, and jujutsu kaisen is 4
 anime = ["Naruto", "Bleach", "One piece", "Dragon ball", "Jujutsu kaisen"]
 # chooses which item on the list would be chosen just put a number in the []
-anime[0] = "Food wars"  # instead of putting Naruto if I input anime[0] it will output Food wars
-print(anime[0])
+anime[0] = "Food wars"  # instead of putting Naruto being number 0 on the list, this takes its place
+#print(anime[0])
+# prints out all of them by order of 0-4
+for x in anime:
+    print(x)
