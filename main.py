@@ -110,3 +110,4 @@ oi = 1
 # this prints out the smallest number
 # print(min(oi, pi, ei))
 # ----------------------------------------------------------------------------------------------------------------------
+# list = used to store multiple items in a singular variable
