@@ -114,4 +114,4 @@ oi = 1
 
 anime = ["naruto", "bleach", "one piece", "dragon ball", "jujutsu kaisen"]
 
-print(food)
+print(anime)
