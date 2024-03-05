@@ -56,7 +56,10 @@ import time
 # continue =   skips to the next iteration of the loop.
 # pass =       does nothing, acts as a placeholder
 
-while True:
-    name = input("Enter your name: ")
-    if name != "":
-        break
+#while True:
+#    name = input("Enter your name: ")
+#    if name != "":
+#        break
+
+phone_number = "123-456-7890"
+
