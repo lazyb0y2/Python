@@ -113,9 +113,24 @@ oi = 1
 # list = used to store multiple items in a singular variable
 # naruto is 0, bleach is 1, one piece is 2, dragon ball is 3, and jujutsu kaisen is 4
 anime = ["Naruto", "Bleach", "One piece", "Dragon ball", "Jujutsu kaisen"]
+games = ["Sonic", "Zelda", "Call of duty", "Kingdom heart", "Hsr"]
+food = ["Spaghetti", "Rice and beans", "Chicken", "pizza", "Corn"]
+
+favorite = [games, food, anime]
 # chooses which item on the list would be chosen just put a number in the []
-anime[0] = "Food wars"  # instead of putting Naruto being number 0 on the list, this takes its place
+#anime[0] = "Food wars"  # instead of putting Naruto being number 0 on the list, this takes its place
 #print(anime[0])
 # prints out all of them by order of 0-4
-for x in anime:
-    print(x)
+
+#anime.append("Chainsaw man")
+#anime.remove("Jujutsu kaisen")
+#anime.pop()
+#anime.insert(0, "Boruto") # adds another thing to the list and chooses where its placed
+#anime.sort()
+#anime.clear()
+
+#for x in anime:
+#    print(x)
+
+print(favorite)
+# ----------------------------------------------------------------------------------------------------------------------
