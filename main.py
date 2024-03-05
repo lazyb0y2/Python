@@ -116,9 +116,9 @@ anime = ["Naruto", "Bleach", "One piece", "Dragon ball", "Jujutsu kaisen"]
 games = ["Sonic", "Zelda", "Call of duty", "Kingdom heart", "Hsr"]
 food = ["Spaghetti", "Rice and beans", "Chicken", "pizza", "Corn"]
 # 2D lists = a list of lists
-favorite = [games, food, anime] # I put the name of the variables so they can be in one list
+favorite = [games, food, anime] # I put the name of the variables, so they can be in one list
 # chooses which item on the list would be chosen just put a number in the []
-#anime[0] = "Food wars"  # instead of putting Naruto being number 0 on the list, this takes its place
+#anime[0] = "Food wars"  # instead of putting Naruto being number 0 on the list; this takes its place
 #print(anime[0])
 # prints out all of them by order of 0-4
 
