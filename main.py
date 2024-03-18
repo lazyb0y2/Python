@@ -188,3 +188,5 @@ capitals.clear() # clears everything
 #    print(key, value) # Shows the every key with there value besides them
 # ----------------------------------------------------------------------------------------------------------------------
 #   index operator  [] = gives access to a sequence's element (str,list,tuples)
+
+name_sake = "Bro Code"
