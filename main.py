@@ -178,3 +178,6 @@ capitals = {'USA': 'Washington DC',
 #print(capitals.keys()) # Shows the name of the keys instead of the value
 #print(capitals.values())  # Does the opposite of .keys which is above
 #print(capitals.items()) # Shows every item in the set
+
+#for key, value in capitals.items():
+#    print(key, value) # Shows the every key with there value besides them
