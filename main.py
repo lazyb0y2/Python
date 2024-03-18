@@ -134,3 +134,5 @@ favorite = [games, food, anime] # I put the name of the variables, so they can b
 
 #print(favorite) # if you add a [] it would choose what list while a second one will choose which word
 # ----------------------------------------------------------------------------------------------------------------------
+# tuple =   collection which is ordered and unchangeable
+#           used to group together related data
