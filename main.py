@@ -144,3 +144,7 @@ student = ("bro", 21, "male",)
 
 for x in student:
     print(x)
+
+if "bro" in student:
+    print("bro is here!") # if bro is inside the tuple, then it will print out bro
+
