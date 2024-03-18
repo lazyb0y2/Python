@@ -117,7 +117,7 @@ games = ["Sonic", "Zelda", "Call of duty", "Kingdom heart", "Hsr"] # print(favor
 food = ["Spaghetti", "Rice and beans", "Chicken", "pizza", "Corn"] # print(favorite[2]) is this
 # 2D lists = a list of lists
 favorite = [games, food, anime] # I put the name of the variables, so they can be in one list
-# chooses which item on the list would be chosen just put a number in the []
+# chooses which item on a list would be chosen by an input of a number in the []
 #anime[0] = "Food wars"  # instead of putting Naruto being number 0 on the list; this takes its place
 #print(anime[0])
 # prints out all of them by order of 0-4
