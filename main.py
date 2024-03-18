@@ -132,5 +132,5 @@ favorite = [games, food, anime] # I put the name of the variables, so they can b
 #for x in anime:
 #    print(x)
 
-#print(favorite)
+#print(favorite) # if you add a [] it would choose what list while a second one will choose which word
 # ----------------------------------------------------------------------------------------------------------------------
