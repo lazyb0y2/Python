@@ -112,9 +112,9 @@ oi = 1
 # ----------------------------------------------------------------------------------------------------------------------
 # list = used to store multiple items in a singular variable
 # naruto is 0, bleach is 1, one piece is 2, dragon ball is 3, and jujutsu kaisen is 4
-anime = ["Naruto", "Bleach", "One piece", "Dragon ball", "Jujutsu kaisen"]
-games = ["Sonic", "Zelda", "Call of duty", "Kingdom heart", "Hsr"]
-food = ["Spaghetti", "Rice and beans", "Chicken", "pizza", "Corn"]
+anime = ["Naruto", "Bleach", "One piece", "Dragon ball", "Jujutsu kaisen"] # print(favorite[0]) is this
+games = ["Sonic", "Zelda", "Call of duty", "Kingdom heart", "Hsr"] # print(favorite[1]) is this
+food = ["Spaghetti", "Rice and beans", "Chicken", "pizza", "Corn"] # print(favorite[2]) is this
 # 2D lists = a list of lists
 favorite = [games, food, anime] # I put the name of the variables, so they can be in one list
 # chooses which item on the list would be chosen just put a number in the []
