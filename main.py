@@ -142,10 +142,26 @@ student = ("bro", 21, "male",)
 #print(student.count("bro")) # shows how many times this word, phrase, or number is used in the tuple
 #print(student.index("bro")) # shows there position in the tuple
 
-for x in student:
-    print(x)
+#for x in student:
+    #print(x)
 
-if "bro" in student:
-    print("bro is here!") # if bro is inside the tuple, then it will print out bro
+#if "bro" in student:
+    #print("bro is here!") # if bro is inside the tuple, then it will print out bro
 # ----------------------------------------------------------------------------------------------------------------------
 # set = collection which is unordered, unidexed.no duplicate values
+
+utensils = {"fork", "spoon", "knife"}
+dishes = {"bowl", "plate", "cup","knife"}
+
+#utensils.add("napkin") # added napkins to the set
+#utensils.remove("fork") # removes fork from the set
+#utensils.clear() # gets rid of the whole set
+#dishes.update(utensils) # adds another set to the set
+#dinner_table = utensils.union(dishes)
+
+#print(dishes.difference(utensils)) # shows the difference between the two sets
+#print(utensils.intersection(dishes)) # Shows the similarities between the two sets
+
+#for x in dinner_table:
+    #print(x)
+
