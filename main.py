@@ -137,6 +137,7 @@ favorite = [games, food, anime] # I put the name of the variables, so they can b
 # tuple =   collection which is ordered and unchangeable
 #           used to group together related data
 
-student = ("bro", 21, "male")
+student = ("bro", 21, "male",)
 
-print(student.count("bro"))
+#print(student.count("bro")) # shows how many times this word, phrase, or number is used in the tuple
+#print(student.index("bro")) # shows there position in the tuple
