@@ -174,4 +174,5 @@ capitals = {'USA': 'Washington DC',
             'Russia': 'Moscow'}
 
 #print(capitals['Russia']) # if the key is to be input into the [] you will get the value
-print(capitals.get('china')) # when a key that exists or not is inputted, it will output its value
+#print(capitals.get('China')) # when a key that exists or not is inputted, it will output its value
+print(capitals)
