@@ -151,7 +151,7 @@ student = ("bro", 21, "male",)
 # set = collection which is unordered, unidexed.no duplicate values
 
 utensils = {"fork", "spoon", "knife"}
-dishes = {"bowl", "plate", "cup","knife"}
+dishes = {"bowl", "plate", "cup", "knife"}
 
 #utensils.add("napkin") # added napkins to the set
 #utensils.remove("fork") # removes fork from the set
@@ -159,7 +159,7 @@ dishes = {"bowl", "plate", "cup","knife"}
 #dishes.update(utensils) # adds another set to the set
 #dinner_table = utensils.union(dishes)
 
-#print(dishes.difference(utensils)) # shows the difference between the two sets
+#print(dishes.difference(utensils)) # shows the difference between the two-set
 #print(utensils.intersection(dishes)) # Shows the similarities between the two sets
 
 #for x in dinner_table:
@@ -167,4 +167,3 @@ dishes = {"bowl", "plate", "cup","knife"}
 # ----------------------------------------------------------------------------------------------------------------------
 # dictionary =  A changeable, unordered collection of a unique key:value pairs
 #               Fast because they use hashing, allow us to access a value quickly
-
