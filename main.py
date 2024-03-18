@@ -141,3 +141,6 @@ student = ("bro", 21, "male",)
 
 #print(student.count("bro")) # shows how many times this word, phrase, or number is used in the tuple
 #print(student.index("bro")) # shows there position in the tuple
+
+for x in student:
+    print(x)
