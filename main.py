@@ -136,3 +136,7 @@ favorite = [games, food, anime] # I put the name of the variables, so they can b
 # ----------------------------------------------------------------------------------------------------------------------
 # tuple =   collection which is ordered and unchangeable
 #           used to group together related data
+
+student = ("bro", 21, "male")
+
+print(student.count("bro"))
