@@ -148,3 +148,5 @@ for x in student:
 if "bro" in student:
     print("bro is here!") # if bro is inside the tuple, then it will print out bro
 # ----------------------------------------------------------------------------------------------------------------------
+# set = collection which is unordered, unidexed.
+# no duplicate values
