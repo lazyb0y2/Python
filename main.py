@@ -173,11 +173,15 @@ capitals = {'USA': 'Washington DC',
             'China': 'Beijing',
             'Russia': 'Moscow'}
 
+capitals.update({'Germany': 'Berlin'})
+capitals.update({'USA': 'Las Vegas'})
+
+
 #print(capitals['Russia']) # if the key is to be input into the [] you will get the value
 #print(capitals.get('China')) # when a key that exists or not is inputted, it will output its value
 #print(capitals.keys()) # Shows the name of the keys instead of the value
 #print(capitals.values())  # Does the opposite of .keys which is above
 #print(capitals.items()) # Shows every item in the set
 
-#for key, value in capitals.items():
-#    print(key, value) # Shows the every key with there value besides them
+for key, value in capitals.items():
+    print(key, value) # Shows the every key with there value besides them
