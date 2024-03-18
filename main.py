@@ -167,10 +167,11 @@ dishes = {"bowl", "plate", "cup", "knife"}
 # ----------------------------------------------------------------------------------------------------------------------
 # dictionary =  A changeable, unordered collection of a unique key:value pairs
 #               Fast because they use hashing, allow us to access a value quickly
-
+#             key   value
 capitals = {'USA': 'Washington DC',
             'India': 'New Delhi',
-            'china': 'Beijing',
+            'China': 'Beijing',
             'Russia': 'Moscow'}
 
-print(capitals['Russia']) # if the words on the left side is to be input into the [] it will out put what's in the left
+#print(capitals['Russia']) # if the key is to be input into the [] you will get the value
+print(capitals.get('china')) # when a key that exists or not is inputted, it will output its value
