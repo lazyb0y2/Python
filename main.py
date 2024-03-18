@@ -175,4 +175,6 @@ capitals = {'USA': 'Washington DC',
 
 #print(capitals['Russia']) # if the key is to be input into the [] you will get the value
 #print(capitals.get('China')) # when a key that exists or not is inputted, it will output its value
-print(capitals)
+#print(capitals.keys()) # Shows the name of the keys instead of the value
+#print(capitals.values())  # Does the opposite of .keys which is above
+#print(capitals.items()) # Shows every item in the set
