@@ -189,5 +189,9 @@ capitals.clear() # clears everything
 # ----------------------------------------------------------------------------------------------------------------------
 #   index operator  [] = gives access to a sequence's element (str,list,tuples)
 
-name_sake = "Bro Code"
+title = "dude Rule"
 
+if title[0].islower(): # video added () around title[0].islower
+    title = title.capitalize() # Makes the variable use proper capitalization
+
+print(title)
