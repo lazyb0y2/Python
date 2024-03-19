@@ -75,14 +75,20 @@
 #   function = a block of code which is executed only when it is called
 
 # I guess it allows you to use a trigger frase that activates its function if I input the name after def
-#def hello(start_name, end_name, life):
+# def hello(start_name, end_name, life):
 #    print("hello!"+start_name+" "+end_name)
 #    print("You are "+str(life)+" years old") # it doesn't like ints and floats
 #    print("have a nice day!")
 
 
-#hello("Bro", "Code", 21)
+# hello("Bro", "Code", 21)
 # ----------------------------------------------------------------------------------------------------------------------
 #   return statement = Functions send python values/objects back to the caller.
 #                      These values/objects are known as the function's return value
 
+def multiply(number1, number2):
+    result = number1 * number2
+    return result
+
+
+print(multiply(6, 8))
