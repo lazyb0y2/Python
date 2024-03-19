@@ -1,3 +1,4 @@
+# input gives you prompt to answer where your response will be stored in the variable
 first_name = input("whats your first name:")
 last_name = input("whats your last name:")
 full_name = first_name + " " + last_name
