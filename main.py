@@ -182,7 +182,7 @@ capitals.clear() # clears everything
 #print(capitals.get('China')) # when a key that exists or not is inputted, it will output its value
 #print(capitals.keys()) # Shows the name of the keys instead of the value
 #print(capitals.values())  # Does the opposite of .keys which is above
-#print(capitals.items()) # Shows every item in the set
+#print(capitals.items()) # Shows every item in the dictionary
 
 #for key, value in capitals.items():
 #    print(key, value) # Shows the every key with there value besides them
