@@ -72,3 +72,5 @@ elif not (temp < 0 or temp > 30):
     print("The temperature is good today!")
     print("go outside!")
 # ----------------------------------------------------------------------------------------------------------------------
+#   function = a block of code which is executed only when it is called
+
