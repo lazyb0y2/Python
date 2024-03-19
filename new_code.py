@@ -8,10 +8,10 @@ first_name = name[0:3]  # or [:3]
 last_name = name[4:8]  # or [4:]
 funky_name = name[0:8:2]  # or [::2]
 reversed_name = name[::-1]
-print(first_name)
-print(last_name)
-print(funky_name)
-print(reversed_name)
+#print(first_name)
+#print(last_name)
+#print(funky_name)
+#print(reversed_name)
 # ----------------------------------------------------------------------------------------------------------------------
 # In this section im going to be slicing
 
@@ -21,6 +21,6 @@ website2 = "https://wikipedia.com"
 # noinspection PyArgumentList
 slice = slice(8, -4)
 
-print(website1[slice])
-print(website2[slice])
+#print(website1[slice])
+#print(website2[slice])
 # ----------------------------------------------------------------------------------------------------------------------
