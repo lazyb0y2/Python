@@ -196,6 +196,8 @@ if title[0].islower(): # video added () around title[0].islower
 
 first_section = title[:4].upper() # outputs value 0 to 4 while keeping it upper-casing
 last_section = title[5:].lower() # outputs value 5 to 9 while keeping it lower-case
+last_character = title[-1] # outputs a single character by counting in reverse / in negatives
 
 print(first_section)
 print(last_section)
+print(last_character)
