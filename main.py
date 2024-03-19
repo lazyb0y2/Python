@@ -194,6 +194,7 @@ title = "dude Rule"
 if title[0].islower(): # video added () around title[0].islower
     title = title.capitalize() # Makes the variable use proper capitalization
 
-first_section = title[:4].upper() # out puts only value 0 to 4 while also upper-casing it
+first_section = title[:4].upper() # outputs value 0 to 4 while keeping it upper-casing
+last_section = title[5:].lower() # outputs value 5 to 9 while keeping it lower-case
 
-print(first_section)
+print(last_section)
