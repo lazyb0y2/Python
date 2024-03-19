@@ -83,3 +83,5 @@ def hello(start_name, end_name, life):
 
 hello("Bro", "Code", 21)
 # ----------------------------------------------------------------------------------------------------------------------
+#   return statement = Functions send python values/objects back to the caller.
+#                      These values/objects are known as the function's return value
