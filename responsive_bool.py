@@ -4,7 +4,7 @@ last_name = input("whats your last name:")
 full_name = first_name + " " + last_name
 print(f"so your full name is {full_name}")
 # ----------------------------------------------------------------------------------------------------------------------
-
+# ask for two numbers and adds them together
 num = input("choose an number:")
 num2 = input("choose another number:")
 solution = int(num) + int(num2)
