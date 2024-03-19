@@ -53,4 +53,5 @@ slice = slice(8, -4)
 def hello(first, middle, last):
     print("Hello ", +first+" "+middle+" "+last)
 
-    hello("Bro", "Dude", "Code")
+
+hello("Bro", "Dude", "Code")
