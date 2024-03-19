@@ -7,7 +7,7 @@ name = "bro"
 # don't add " to a variable because it will become a string the outputs the variable name not what's contained
 # print("name")
 # print(name)
-# this shows the variables value
+# this shows the variables type
 # print(type(name))
 # ----------------------------------------------------------------------------------------------------------------------
 # you must add _ to two segmented words instead of a space, or it won't work
