@@ -55,3 +55,5 @@ slice = slice(8, -4)
 #num = abs(num)
 #num = round(num)
 #print(num)
+
+print(round(abs(float(input("Enter a whole positive number: ")))))
