@@ -49,3 +49,9 @@ slice = slice(8, -4)
 # nested function calls = function calls inside other functions calls
 #                         innermost function calls are resolved first
 #                         return value is used as an argument for the next outer function
+
+num = input("Enter a whole positive number: ")
+num = float(num)
+num = abs(num)
+num = round(num)
+print(num)
