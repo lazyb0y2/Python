@@ -53,22 +53,22 @@
 # ----------------------------------------------------------------------------------------------------------------------
 # Logical operated (and,or,not) = used to check if two or more conditional statements is True
 
-# temp = int(input("What's the temperature outside?: "))
+#temp = int(input("What's the temperature outside?: "))
 # and means that both statements need be correct to be true
-# if (temp >= 0 and temp <= 30):
+#if (temp >= 0 and temp <= 30):
 #    print("The temperature is good today!")
 #    print("go outside!")
 # or means one or both statements need to be correct for it to be true
-# elif (temp < 0 or temp > 30):
+#elif (temp < 0 or temp > 30):
 #    print("The temperature is bad today!")
 #    print("Stay inside!")
 
 # these if not mean that if statements wrong It's correct
-# if not (temp >= 0 and temp <= 30):
+#if not (temp >= 0 and temp <= 30):
 #    print("The temperature is bad today!")
 #    print("Stay inside!")
 
-# elif not (temp < 0 or temp > 30):
+#elif not (temp < 0 or temp > 30):
 #    print("The temperature is good today!")
 #    print("go outside!")
 # ----------------------------------------------------------------------------------------------------------------------
