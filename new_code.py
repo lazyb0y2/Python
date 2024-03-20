@@ -46,3 +46,6 @@ slice = slice(8, -4)
 
 #print(x)
 # ----------------------------------------------------------------------------------------------------------------------
+# nested function calls = function calls inside other functions calls
+#                         innermost function calls are resolved first
+#                         return value is used as an argument for the next outer function
