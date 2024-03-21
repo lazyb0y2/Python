@@ -62,7 +62,7 @@
 #         A variable is only available from inside the region it is created.
 #         A global and locally scoped version of a variable can be created
 
-
+name = "Bro" # global scope (available inside & outside functions)
 
 def display_name():
     name = "Code"   # local scope (available only inside this function)
