@@ -1,4 +1,4 @@
-# this is going to be for unruly code
+# This is going to be for unruly code.
 # ----------------------------------------------------------------------------------------------------------------------
 #   Keyword argument = argument preceded by an identifier when we pass them to a function
 #                      The order of the argument doesn't matter, unlike positional arguments
