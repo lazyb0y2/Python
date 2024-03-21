@@ -2,12 +2,12 @@
 #           indexing[] or slice()
 #           [start:stop:step]
 
-name = "Bro Code"
+#name = "Bro Code"
 # I'm going to be indexing in this section
-first_name = name[0:3]  # or [:3]
-last_name = name[4:8]  # or [4:]
-funky_name = name[0:8:2]  # or [::2]
-reversed_name = name[::-1]
+#first_name = name[0:3]  # or [:3]
+#last_name = name[4:8]  # or [4:]
+#funky_name = name[0:8:2]  # or [::2]
+#reversed_name = name[::-1]
 #print(first_name)
 #print(last_name)
 #print(funky_name)
@@ -15,11 +15,11 @@ reversed_name = name[::-1]
 # ----------------------------------------------------------------------------------------------------------------------
 # In this section im going to be slicing
 
-website1 = "https://google.com"
-website2 = "https://wikipedia.com"
+#website1 = "https://google.com"
+#website2 = "https://wikipedia.com"
 
 # noinspection PyArgumentList
-slice = slice(8, -4)
+#slice = slice(8, -4)
 
 #print(website1[slice])
 #print(website2[slice])
@@ -65,3 +65,6 @@ slice = slice(8, -4)
 def display_name():
     name = "Code"   # local scope (available only inside this function)
     print(name)
+
+
+print(name)
