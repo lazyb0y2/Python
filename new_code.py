@@ -63,3 +63,5 @@ print(name)
 # G = Global
 # B = Built-in
 # ----------------------------------------------------------------------------------------------------------------------
+# *args =   parameter that will pack all arguments into a tuple
+#           useful so that a function can accept a varying number of arguments
