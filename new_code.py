@@ -66,12 +66,13 @@
 # *args =   parameter that will pack all arguments into a tuple
 #           useful so that a function can accept a varying number of arguments
     # (num1 + num2)
-def add(*args):
+def add(*stuff):
     sum = 0
-    for i in args:
+    stuff = list(stuff)
+    for i in stuff:
         sum += i
     #sum = num1 + num2
     return sum
 
 
-print(add(1, 2, 10, 400))
+print(add(1, 2, 5, 20))
