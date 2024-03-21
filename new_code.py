@@ -66,7 +66,7 @@
 # *args =   parameter that will pack all arguments into a tuple
 #           useful so that a function can accept a varying number of arguments
 
-def add(num1,num2):
+def add(num1, num2):
     sum = num1 + num2
     return sum
 
