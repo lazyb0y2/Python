@@ -78,11 +78,3 @@
 
 #print(add(20, 50, 46))
 # ----------------------------------------------------------------------------------------------------------------------
-# **kwargs =    parameter that will pack all arguments into the dictionary
-#               useful so that a function can accept a varying number of keywords' arguments
-
-def hello(first, last):
-    print("Hello ", + first + " ", +last)
-
-
-hello(first="theo", last="bakes")
