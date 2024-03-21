@@ -69,10 +69,11 @@
 def add(*stuff):
     sum = 0
     stuff = list(stuff)
+    stuff[0] = 0
     for i in stuff:
         sum += i
     #sum = num1 + num2
     return sum
 
 
-print(add(1, 2, 5, 20))
+print(add(1, 5))
