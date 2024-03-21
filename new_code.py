@@ -82,7 +82,7 @@
 #               useful so that a function can accept a varying number of keywords' arguments
 
 def hello(first, last):
-    print("Hello ", + first +" ",+last)
+    print("Hello ", + first + " ", +last)
 
 
 hello(first="theo", last="bakes")
