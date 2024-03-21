@@ -58,3 +58,6 @@ slice = slice(8, -4)
 
 print(round(abs(float(input("Enter a whole positive number: "))))) # a more improved variant of what's on top
 # ----------------------------------------------------------------------------------------------------------------------
+# scope = The region that a variable is recognized
+#         A variable is only available from inside the region it is created.
+#         A global and locally scoped version of a variable can be created
