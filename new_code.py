@@ -65,7 +65,7 @@
 # ----------------------------------------------------------------------------------------------------------------------
 # *args =   parameter that will pack all arguments into a tuple
 #           useful so that a function can accept a varying number of arguments
-    # (num1 + num2)
+#     (num1 + num2)
 #def add(*stuff):
 #    sum = 0
 #    stuff = list(stuff)
