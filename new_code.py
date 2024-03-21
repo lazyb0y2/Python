@@ -66,17 +66,17 @@
 # *args =   parameter that will pack all arguments into a tuple
 #           useful so that a function can accept a varying number of arguments
     # (num1 + num2)
-def add(*stuff):
-    sum = 0
-    stuff = list(stuff)
+#def add(*stuff):
+#    sum = 0
+#    stuff = list(stuff)
 #    stuff[0] = 0 # stops it from adding
-    for i in stuff:
-        sum += i
+#    for i in stuff:
+#        sum += i
     #sum = num1 + num2
-    return sum
+#    return sum
 
 
-print(add(20, 50, 46))
+#print(add(20, 50, 46))
 # ----------------------------------------------------------------------------------------------------------------------
 # **kwargs =    parameter that will pack all arguments into the dictionary
 #               useful so that a function can accept a varying number of keywords' arguments
