@@ -50,14 +50,14 @@
 #         A variable is only available from inside the region it is created.
 #         A global and locally scoped version of a variable can be created
 
-name = "Bro" # global scope (available inside & outside functions)
+#name = "Bro" # global scope (available inside & outside functions)
 
-def display_name():
-    name = "Code"   # local scope (available only inside this function)
-    print(name)
+#def display_name():
+#    name = "Code"   # local scope (available only inside this function)
+#    print(name)
 
-display_name()
-print(name)
+#display_name()
+#print(name)
 # L = Local
 # E = Enclosing
 # G = Global
@@ -65,3 +65,10 @@ print(name)
 # ----------------------------------------------------------------------------------------------------------------------
 # *args =   parameter that will pack all arguments into a tuple
 #           useful so that a function can accept a varying number of arguments
+
+def add(num1,num2):
+    sum = num1 + num2
+    return sum
+
+
+print(add(1, 2))
