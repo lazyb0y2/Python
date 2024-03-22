@@ -95,5 +95,5 @@ except ZeroDivisionError:
     print("You can't divide by zero! you dumb ass!")
 except ValueError:
     print("I know your stupid")
-#except Exception:
-#    print("something went wrong :(")
+except Exception:
+    print("something went wrong :(")
