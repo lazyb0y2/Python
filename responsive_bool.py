@@ -93,6 +93,6 @@ try:
     result = numerator / denominator
     print(result)
 except ZeroDivisionError:
-    print("You can't divide by zero! you mentally stupid idiot!")
+    print("You can't divide by zero! you dumb ass!")
 except Exception:
     print("something went wrong :(")
