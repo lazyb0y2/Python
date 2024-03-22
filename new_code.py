@@ -116,4 +116,7 @@ import random
 x = random.randint(1, 6)
 y = random.random()
 
-print(y)
+myList = ['rock', 'paper', 'scissor']
+z = random.choice(myList)
+
+print(z)
