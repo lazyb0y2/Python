@@ -111,3 +111,8 @@ print("The number pi is {:X}".format(number)) # shows as a hexadecimal upper cas
 print("The number pi is {:e}".format(number)) # shows as a scientific notation lower case
 print("The number pi is {:E}".format(number)) # shows as a scientific notation upper case
 # ----------------------------------------------------------------------------------------------------------------------
+ import random
+
+
+x = random.randint(1, 6)
+y = random.random()
