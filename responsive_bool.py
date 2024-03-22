@@ -84,3 +84,4 @@
 
 #print(round(abs(float(input("Enter a whole positive number: "))))) # a more improved variant of what's on top
 # ----------------------------------------------------------------------------------------------------------------------
+# exception =   event detected during execution that interrupt the flow of a program
