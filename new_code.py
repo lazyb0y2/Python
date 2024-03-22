@@ -94,7 +94,8 @@ item = "moon"
 
 name2 = "dude"
 
-print("Hello my name is {}".format(name2))
-print("Hello my name is {:10}. Nice to meet you".format(name2))
-print("Hello my name is {:<10}. Nice to meet you".format(name2))
-print("Hello my name is {:>10}. Nice to meet you".format(name2))
+#print("Hello my name is {}".format(name2))
+#print("Hello my name is {:10}. Nice to meet you".format(name2))
+#print("Hello my name is {:<10}. Nice to meet you".format(name2)) # does what the one on top does
+#print("Hello my name is {:>10}. Nice to meet you".format(name2)) # does the opposite of the two above
+#print("Hello my name is {:^10}. Nice to meet you".format(name2)) # does the same thing as line 99 and 100
