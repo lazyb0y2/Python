@@ -99,3 +99,15 @@ name2 = "dude"
 #print("Hello my name is {:<10}. Nice to meet you".format(name2)) # does what the one on top does
 #print("Hello my name is {:>10}. Nice to meet you".format(name2)) # does the opposite of the two above
 #print("Hello my name is {:^10}. Nice to meet you".format(name2)) # does the same thing as line 99 and 100
+
+number = 1000
+
+print("The number pi is {:.3f}".format(number)) # the number in the {} dictates how much is shown at the end of the .
+print("The number pi is {:,}".format(number)) # adds a , after every hundreds place
+print("The number pi is {:b}".format(number)) # shows a binary representation of the number
+print("The number pi is {:o}".format(number)) # shows as an octal number
+print("The number pi is {:x}".format(number)) # shows as a hexadecimal lower case
+print("The number pi is {:X}".format(number)) # shows as a hexadecimal upper case
+print("The number pi is {:e}".format(number)) # shows as a scientific notation lower case
+print("The number pi is {:E}".format(number)) # shows as a scientific notation upper case
+# ----------------------------------------------------------------------------------------------------------------------
