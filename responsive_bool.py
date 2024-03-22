@@ -92,5 +92,6 @@ try:
     denominator = int(input("Enter a number to divide by: "))
     result = numerator / denominator
     print(result)
+
 except Exception:
     print("something went wrong :(")
