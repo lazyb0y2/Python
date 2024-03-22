@@ -95,4 +95,4 @@ item = "moon"
 name2 = "dude"
 
 print("Hello my name is {}".format(name2))
-print("Hello my name is {:}".format(name2))
+print("Hello my name is {:10}. Nice to meet you".format(name2))
