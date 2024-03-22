@@ -87,12 +87,13 @@
 # exception =   event detected during execution that interrupt the flow of a program
 
 try:
-
     numerator = int(input("Enter a number to divide: "))
     denominator = int(input("Enter a number to divide by: "))
     result = numerator / denominator
     print(result)
 except ZeroDivisionError:
     print("You can't divide by zero! you dumb ass!")
-except Exception:
-    print("something went wrong :(")
+except ValueError:
+    print("I know your stupid")
+#except Exception:
+#    print("something went wrong :(")
