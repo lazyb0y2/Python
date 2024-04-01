@@ -144,4 +144,5 @@ import os
 # Used with modular programming, which is to separate a program into parts
 import messages
 
-
+messages.hello()
+messages.bye()
