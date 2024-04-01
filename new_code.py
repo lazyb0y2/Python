@@ -140,4 +140,8 @@ import os
 #else:
 #    print("That location doesn't exist!")
 
-
+try:
+    with open('Downloads') as file:
+        print(file.read())
+except FileNotFoundError:
+    print("That file was not found :(")
