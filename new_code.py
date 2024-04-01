@@ -129,3 +129,10 @@ import random
 # ----------------------------------------------------------------------------------------------------------------------
 import os
 
+path = "/Users/319501/Downloads"
+
+if os.path.exists(path):
+    print("That location exists!")
+
+else:
+    print("That location doesn't exist!")
