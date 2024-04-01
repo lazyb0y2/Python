@@ -142,7 +142,7 @@ import os
 # ----------------------------------------------------------------------------------------------------------------------
 
 try:
-    with open('') as file:
+    with open('Downloads') as file:
         print(file.read())
 except FileNotFoundError:
     print("That file was not found :(")
