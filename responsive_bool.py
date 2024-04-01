@@ -90,7 +90,6 @@ try:
     numerator = int(input("Enter a number to divide: "))
     denominator = int(input("Enter a number to divide by: "))
     result = numerator / denominator
-    print(result)
 except ZeroDivisionError as e:
     print(e)
     print("You can't divide by zero! you dumb ass!")
@@ -100,3 +99,6 @@ except ValueError as e:
 except Exception as e:
     print(e)
     print("something went wrong :(")
+else:
+    print(result)
+
