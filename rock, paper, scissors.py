@@ -20,3 +20,21 @@ elif player == "rock":
         print("computer: ", computer)
         print("player: ", player)
         print("You win!")
+elif player == "paper":
+    if computer == "scissors":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You lose!")
+    elif computer == "rock":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You win!")
+elif player == "scissors":
+    if computer == "rock":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You lose!")
+    elif computer == "paper":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You win!")
