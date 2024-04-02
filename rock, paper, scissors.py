@@ -1,4 +1,5 @@
 import random
+
 while True:
     choices = ["rock", "paper", "scissors"]
 
@@ -6,7 +7,7 @@ while True:
     player = None
 
     while player not in choices:
-    player = input("rock, paper, or scissors?: ").lower()
+        player = input("rock, paper, or scissors?: ").lower()
 
     if player == computer:
         print("computer: ", computer)
@@ -45,6 +46,7 @@ while True:
 
     play_again = input("Play again? (yes/no)?: ").lower()
 
-    if play_again !== "yes":
+    if play_again != "yes":
         break
-print("")
+
+print("Bye!")
