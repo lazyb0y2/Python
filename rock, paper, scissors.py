@@ -11,12 +11,13 @@ if player == computer:
     print("computer: ", computer)
     print("player: ", player)
     print("Tie!")
+
 elif player == "rock":
     if computer == "paper":
         print("computer: ", computer)
         print("player: ", player)
         print("You lose!")
-    elif computer == "scissors":
+    if computer == "scissors":
         print("computer: ", computer)
         print("player: ", player)
         print("You win!")
@@ -25,7 +26,7 @@ elif player == "scissors":
         print("computer: ", computer)
         print("player: ", player)
         print("You lose!")
-    elif computer == "paper":
+    if computer == "paper":
         print("computer: ", computer)
         print("player: ", player)
         print("You win!")
@@ -34,7 +35,7 @@ elif player == "paper":
         print("computer: ", computer)
         print("player: ", player)
         print("You lose!")
-    elif computer == "rock":
+    if computer == "rock":
         print("computer: ", computer)
         print("player: ", player)
         print("You win!")
