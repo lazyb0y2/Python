@@ -147,6 +147,7 @@ import os
 #import message as msg
 #from messages import hello, bye
 #from messages import *
+help("modules")
 
 #messages.hello()
 #messages.bye()
