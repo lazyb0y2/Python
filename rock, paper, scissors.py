@@ -3,8 +3,10 @@ import random
 choices = ["rock", "paper", "scissors"]
 
 computer = random.choices(choices)
+player = None
 
-player = input("rock, paper, or scissors?: ")
+while player not in choices:
+    player = input("rock, paper, or scissors?: ")
 
-print(computer)
-print(player)
+print("computer: ", computer)
+print("player: ", player)
