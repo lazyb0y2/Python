@@ -11,3 +11,12 @@ if player == computer:
     print("computer: ", computer)
     print("player: ", player)
     print("Tie!")
+elif player == "rock":
+    if computer == "paper":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You lose!")
+    elif computer == "scissors":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You win!")
