@@ -146,7 +146,11 @@ import os
 #import message
 #import message as msg
 #from messages import hello, bye
-from messages import *
+#from messages import *
 
-hello()
-bye()
+#messages.hello()
+#messages.bye()
+##msg.hello()
+#msg.bye()
+#hello()
+#bye()
