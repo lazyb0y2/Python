@@ -104,3 +104,18 @@
 #finally:
 #    print("This will always execute")
 # ----------------------------------------------------------------------------------------------------------------------
+# Added this for fun
+
+#Spathiphyllum = input("Spathiphyllum?: ")
+
+#if Spathiphyllum == "Spathiphyllum":
+#    print("Yes - Spathiphyllum is the best plant ever!")
+#elif Spathiphyllum == "spathiphyllum":
+#    print("No, I want a big Spathiphyllum!")
+#elif Spathiphyllum == "pelargonium":
+#    print("Spathiphyllum! Not pelargonium!")
+#elif Spathiphyllum == "Pelargonium":
+#    print("Spathiphyllum! Not Pelargonium!")
+#else:
+#    print(f"No no no I want Spathiphyllum not {Spathiphyllum}")
+# ----------------------------------------------------------------------------------------------------------------------
