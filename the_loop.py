@@ -75,3 +75,35 @@ import time
 #    else:
 #        print(i)
 # ----------------------------------------------------------------------------------------------------------------------
+# this is the code from 3.2.1.3 lab
+
+#secret_number = 777
+
+#print(
+#    """
+#    +================================+
+#    | Welcome to my game, muggle!    |
+#    | Enter an integer number        |
+#    | and guess what number I've     |
+#    | picked for you.                |
+#    | So, what is the secret number? |
+#    +================================+
+#    """)
+#guess_number = input("What is the secret number: ")
+#guess_number = int(guess_number)
+
+#while guess_number != secret_number:
+
+#    if guess_number != secret_number:
+#        print("Ha ha! You're stuck in my loop!")
+
+#print("Well done, muggle! You are free now.")
+# ----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
