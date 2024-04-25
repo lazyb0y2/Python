@@ -99,11 +99,11 @@ import time
 
 #print("Well done, muggle! You are free now.")
 # ----------------------------------------------------------------------------------------------------------------------
-while True:
-    word = input("Enter a word: ")
-    if word.lower() == "chupacabra":
-        print("You've successfully left the loop.")
-        break
+#while True:
+#    word = input("Enter a word: ")
+#    if word.lower() == "chupacabra":
+#        print("You've successfully left the loop.")
+#        break
 # ----------------------------------------------------------------------------------------------------------------------
 
 
