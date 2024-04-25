@@ -202,3 +202,13 @@ last_character = title[-1] # outputs a single character by counting in reverse /
 #print(last_section)
 #print(last_character)
 # ----------------------------------------------------------------------------------------------------------------------
+#import time
+
+#for loop in range(1, 6, 1):
+
+#    time.sleep(1)
+
+#    print(f"{loop} Mississippi")
+
+#print("Ready or not, here I come!")
+# ----------------------------------------------------------------------------------------------------------------------
