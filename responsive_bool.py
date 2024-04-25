@@ -119,10 +119,10 @@
 #else:
 #    print(f"No no no I want Spathiphyllum not {Spathiphyllum}")
 # ----------------------------------------------------------------------------------------------------------------------
-user_word = input("Enter a word: ").upper()
+#user_word = input("Enter a word: ").upper()
 
-for letter in user_word:
-    if letter in "AEIOU":
-        continue
-    print(letter)
+#for letter in user_word:
+#    if letter in "AEIOU":
+#        continue
+#    print(letter)
 # ----------------------------------------------------------------------------------------------------------------------
